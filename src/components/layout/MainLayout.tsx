@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { Button } from '../ui/button';
-import { Home, Info, Menu, X, ChevronDown, Heart, ArrowRight, Mail, Phone } from 'lucide-react';
+import { Home, Info, Menu, X, Heart, Mail, Phone } from 'lucide-react';
 
 interface MainLayoutProps {
   children: React.ReactNode;
   className?: string;
 }
 
-const MainLayout: React.FC<MainLayoutProps> = ({ children, className }) => {
+const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [heartbeat, setHeartbeat] = useState(false);
