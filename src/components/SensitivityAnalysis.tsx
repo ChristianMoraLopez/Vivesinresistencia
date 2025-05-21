@@ -154,7 +154,7 @@ const SensitivityAnalysis: React.FC<SensitivityAnalysisProps> = ({ sensitivity }
           <h4 className="font-semibold text-blue-800">¿Cómo leer este mapa?</h4>
         </div>
         <p className="text-blue-700 text-sm">
-          Imagina que este mapa es como un mapa meteorológico que muestra `&quot;`tormentas de riesgo`&quot;`. 
+          Imagina que este mapa es como un mapa meteorológico que muestra &quot;tormentas de riesgo &quot;. 
           Las zonas verdes son como días soleados (bajo riesgo), las amarillas como días nublados (riesgo moderado), 
           y las rojas como tormentas intensas (alto riesgo).
         </p>
@@ -224,7 +224,7 @@ const SensitivityAnalysis: React.FC<SensitivityAnalysisProps> = ({ sensitivity }
                   <span className="font-medium text-green-600 min-w-4">•</span>
                   <p>
                     <strong>La cintura importa más de lo que crees:</strong> La grasa abdominal es como tener una fábrica 
-                    de sustancias inflamatorias en tu cuerpo. Mientras más grande la `&quot;`fábrica`&quot;`, más problemas produce.
+                    de sustancias inflamatorias en tu cuerpo. Mientras más grande la &quot;fábrica &quot;, más problemas produce.
                   </p>
                 </div>
                 <div className="flex items-start space-x-2">
@@ -277,7 +277,7 @@ const SensitivityAnalysis: React.FC<SensitivityAnalysisProps> = ({ sensitivity }
                 </div>
                 <div className="bg-red-50 p-3 rounded border-l-4 border-red-400">
                   <p className="text-red-800">
-                    <strong>⚠️ Dato importante:</strong> Puedes tener un IMC `&quot;`normal`&quot;` pero una cintura peligrosa, o viceversa. 
+                    <strong>⚠️ Dato importante:</strong> Puedes tener un IMC &quot;normal &quot; pero una cintura peligrosa, o viceversa. 
                     Es como tener diferentes tipos de advertencias en tu carro - todas requieren atención.
                   </p>
                 </div>
@@ -632,12 +632,12 @@ const SensitivityAnalysis: React.FC<SensitivityAnalysisProps> = ({ sensitivity }
           <CardContent className="p-6">
             <div className="space-y-3 text-sm text-green-700">
               <p className="leading-relaxed">
-                <strong>¿Qué significan los colores?</strong> Las zonas más oscuras son como `&quot;`zonas de peligro`&quot;`
+                <strong>¿Qué significan los colores?</strong> Las zonas más oscuras son como &quot;zonas de peligro &quot;
                 donde múltiples factores se combinan para crear alto riesgo.
               </p>
               <div className="bg-green-100 p-3 rounded-lg border-l-4 border-green-400">
                 <p className="text-green-800 font-medium">
-                  🎯 Clave para doctores: Este análisis identifica los `&quot;`puntos críticos`&quot;` donde pequeños cambios 
+                  🎯 Clave para doctores: Este análisis identifica los &quot;puntos críticos &quot; donde pequeños cambios 
                   producen grandes mejoras en la salud.
                 </p>
               </div>

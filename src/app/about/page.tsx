@@ -112,7 +112,7 @@ export default function About() {
                   </p>
                   <div className="mt-6 bg-soft/30 rounded-lg p-4 border-l-4 border-primary transform transition-all duration-300 group-hover:border-bold">
                     <p className="text-gray-800 italic">
-                      `&quot;`La resistencia a la insulina está asociada con varias condiciones de salud, incluyendo diabetes tipo 2, obesidad, enfermedades cardiovasculares y el síndrome de ovario poliquístico (SOP).`&quot;`
+                      &quot;La resistencia a la insulina está asociada con varias condiciones de salud, incluyendo diabetes tipo 2, obesidad, enfermedades cardiovasculares y el síndrome de ovario poliquístico (SOP). &quot;
                     </p>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export default function About() {
                 <div>
                   <h2 className="text-3xl font-bold text-accent group-hover:text-accent-dark transition-colors duration-300 mb-4">Nuestra Herramienta</h2>
                   <p className="text-gray-700 leading-relaxed mb-6 text-lg">
-                    La herramienta `&quot;`Vive Sin Resistencia`&quot;` utiliza un modelo de aprendizaje automático (Random Forest Classifier) entrenado con datos de la Encuesta Nacional de Salud y Nutrición (NHANES) para evaluar el riesgo de resistencia a la insulina.
+                    La herramienta &quot;Vive Sin Resistencia &quot; utiliza un modelo de aprendizaje automático (Random Forest Classifier) entrenado con datos de la Encuesta Nacional de Salud y Nutrición (NHANES) para evaluar el riesgo de resistencia a la insulina.
                   </p>
 
                   <div className="bg-gradient-to-r from-accent/10 to-accent-light/20 rounded-xl p-6 mt-4 group-hover:from-accent/20 group-hover:to-accent-light/30 transition-all duration-300">
